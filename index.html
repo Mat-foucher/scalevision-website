@@ -6,17 +6,17 @@
 
 <script>
   console.log('Scripting');
-
-  function dropdowns(){
-    const notes = ['a','a#','b','c','c#','d','d#','e','f','f#','g','g#'];
+  const notes = ['a','a#','b','c','c#','d','d#','e','f','f#','g','g#'];
+  function dropDowns() {
+    
     document.getElementById("tuningdds").innerHTML = "<select id='notes' name='notes'><option value='a'>a</option><option value='b'>b</option><option value='c'>c</option></select>";
   }
   
 </script>
 
 <body>
-  <h> Options </h>
-  <div id="tuningdds">
+  <h1> Options </h1>
+  <p id="tuningdds">
     <!-- <select id="notes" name="notes">
       <option value="a">a</option>
       <option value="b">b</option>
@@ -52,6 +52,6 @@
       <option value="b">b</option>
       <option value="c">c</option>
     </select>  -->
-  </div>
+  </p>
 </body>
 </html> 
