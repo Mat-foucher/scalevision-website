@@ -7,10 +7,14 @@
 <script>
   console.log('Scripting');
   const notes = ['a','a#','b','c','c#','d','d#','e','f','f#','g','g#'];
-  function dropDowns() {
+  void function dropDowns() {
     
-    document.getElementById("tuningdds").innerHTML = "<select id='notes' name='notes'><option value='a'>a</option><option value='b'>b</option><option value='c'>c</option></select>";
+    document.getElementById("tuningdds").innerHTML = "<select id='notes' name='notes'></select>";
   }
+
+  window.onload() = function() {
+    dropDowns();
+  };
   
 </script>
 
